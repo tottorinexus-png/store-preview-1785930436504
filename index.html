@@ -4,16 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>居酒家もんたや｜鳥取市湖山町北の居酒屋</title>
-  <meta name="description" content="鳥取県鳥取市湖山町北、鳥取大学前駅から徒歩圏内の居酒家もんたや。店舗情報、アクセス、予約・お問い合わせ方法をご案内します。">
+  <meta name="description" content="鳥取市湖山町北、鳥取大学前駅近くの居酒屋『居酒家もんたや』。店舗情報、営業時間、アクセス、予約・問い合わせ方法をご案内します。">
+  <meta name="theme-color" content="#8f2f24">
+
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:title" content="居酒家もんたや｜鳥取市湖山町北の居酒屋">
-  <meta property="og:description" content="店舗情報、アクセス、予約・お問い合わせ方法をご案内します。">
+  <meta property="og:description" content="店舗情報、営業時間、アクセス、予約・問い合わせ方法をご案内します。">
+  <!-- 公開時に正規URLを設定してください -->
   <meta property="og:url" content="">
-  <meta property="og:image" content="assets/ogp.jpg">
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- 公開時に正式なURLとOGP画像へ差し替えてください -->
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%238c2f28'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-size='34' fill='%23fff8e7'%3E%E3%82%82%3C/text%3E%3C/svg%3E">
+  <!-- 公開時に店舗の許可済み画像を絶対URLで設定してください -->
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%238f2f24'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-size='34' fill='%23fffaf0' font-family='sans-serif'%3Eも%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
@@ -22,264 +25,260 @@
 
   <header class="site-header" id="top">
     <div class="header-inner">
-      <a class="brand" href="#top" aria-label="居酒家もんたや トップへ">
+      <a class="brand" href="#top" aria-label="居酒家もんたや ホーム">
         <span class="brand-mark" aria-hidden="true">も</span>
         <span class="brand-text">
+          <span class="brand-type">鳥取市湖山町北の居酒屋</span>
           <strong>居酒家もんたや</strong>
-          <small>鳥取市 湖山町北</small>
         </span>
       </a>
 
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="global-nav">
-        <span></span><span></span><span></span>
-        <span class="sr-only">メニューを開く</span>
+        <span class="menu-button-lines" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="menu-button-label">メニュー</span>
       </button>
 
       <nav class="global-nav" id="global-nav" aria-label="メインメニュー">
         <a href="#features">お店について</a>
-        <a href="#menu">メニュー</a>
-        <a href="#reviews">口コミ傾向</a>
+        <a href="#menu">おすすめ</a>
+        <a href="#gallery">写真</a>
         <a href="#info">店舗情報</a>
         <a href="#access">アクセス</a>
-        <a class="nav-contact" href="#contact">予約・お問い合わせ</a>
+        <a class="nav-contact" href="#contact">予約・問い合わせ</a>
       </nav>
     </div>
   </header>
 
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-visual" role="img" aria-label="居酒家もんたやの店舗写真差し替え予定枠">
-        <div class="lantern lantern-left" aria-hidden="true"><span>酒</span></div>
-        <div class="lantern lantern-right" aria-hidden="true"><span>肴</span></div>
-        <div class="photo-placeholder hero-placeholder">
-          <span class="placeholder-icon" aria-hidden="true">写真</span>
-          <strong>店舗写真に差し替え予定</strong>
-          <small>料理・店内・外観の公式写真を想定</small>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">鳥取大学前駅から徒歩約5分</p>
+          <h1 id="hero-title"><span>居酒家</span>もんたや</h1>
+          <p class="hero-description">友人との食事やご家族でのひとときに。湖山町北で立ち寄れる、昭和レトロな雰囲気の居酒屋です。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="tel:0857329745">電話する</a>
+            <a class="button button-secondary" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%B1%85%E9%85%92%E5%AE%B6%E3%82%82%E3%82%93%E3%81%9F%E3%82%84%20%E9%B3%A5%E5%8F%96%E7%9C%8C%E9%B3%A5%E5%8F%96%E5%B8%82%E6%B9%96%E5%B1%B1%E7%94%BA%E5%8C%972%E4%B8%81%E7%9B%AE129" target="_blank" rel="noopener noreferrer">地図を開く</a>
+          </div>
+          <p class="hero-note">営業時間や臨時休業は、ご来店前にInstagramまたは電話でご確認ください。</p>
+        </div>
+
+        <div class="hero-visual placeholder-photo" role="img" aria-label="店舗写真に差し替え予定">
+          <span class="placeholder-label">店舗写真に差し替え予定</span>
+          <span class="lantern" aria-hidden="true">酒</span>
+          <span class="noren" aria-hidden="true"><i></i><i></i><i></i></span>
         </div>
       </div>
+      <div class="hero-pattern" aria-hidden="true"></div>
+    </section>
 
-      <div class="hero-content">
-        <p class="eyebrow">鳥取大学前駅から徒歩圏内</p>
-        <h1 id="hero-title">居酒家<br><span>もんたや</span></h1>
-        <p class="hero-summary">鳥取市湖山町北の居酒屋。料理やお酒を囲む時間を、気軽に楽しみたいときに。</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="tel:0857329745">
-            <span aria-hidden="true">☎</span> 電話する
-          </a>
-          <a class="button button-secondary" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%B1%85%E9%85%92%E5%AE%B6%E3%82%82%E3%82%93%E3%81%9F%E3%82%84%20%E9%B3%A5%E5%8F%96%E7%9C%8C%E9%B3%A5%E5%8F%96%E5%B8%82%E6%B9%96%E5%B1%B1%E7%94%BA%E5%8C%972%E4%B8%81%E7%9B%AE129" target="_blank" rel="noopener noreferrer">
-            地図を開く
-          </a>
+    <section class="quick-info" aria-label="基本情報">
+      <div class="section-inner quick-info-grid">
+        <div class="quick-item">
+          <span class="quick-icon" aria-hidden="true">時</span>
+          <div><small>営業時間</small><strong>月〜土 18:00〜22:30</strong><span>料理・ドリンク L.O. 22:00</span></div>
         </div>
-        <p class="hero-note">ご予約・営業状況は、ご来店前に店舗へご確認ください。</p>
+        <div class="quick-item">
+          <span class="quick-icon" aria-hidden="true">休</span>
+          <div><small>定休日</small><strong>日曜日</strong><span>臨時休業は要確認</span></div>
+        </div>
+        <div class="quick-item">
+          <span class="quick-icon" aria-hidden="true">席</span>
+          <div><small>店内</small><strong>カウンターあり</strong><span>総席数15席との掲載あり</span></div>
+        </div>
       </div>
     </section>
 
-    <section class="quick-info" aria-label="店舗概要">
-      <div class="quick-info-item">
-        <span class="quick-label">所在地</span>
-        <strong>鳥取市湖山町北</strong>
-      </div>
-      <div class="quick-info-item">
-        <span class="quick-label">営業時間</span>
-        <strong>月〜土 18:00〜22:30</strong>
-        <small>掲載情報／日曜定休</small>
-      </div>
-      <div class="quick-info-item">
-        <span class="quick-label">ご予約</span>
-        <strong>電話・ネット予約</strong>
+    <section class="section features" id="features" aria-labelledby="features-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-kicker">お店について</p>
+          <h2 id="features-title">普段使いしやすい、湖山町北の居酒屋</h2>
+        </div>
+
+        <div class="feature-layout">
+          <div class="feature-photo placeholder-photo compact" role="img" aria-label="店内写真に差し替え予定">
+            <span class="placeholder-label">店内写真に差し替え予定</span>
+          </div>
+          <div class="feature-cards">
+            <article class="feature-card">
+              <span class="feature-number">一</span>
+              <div><h3>昭和レトロな雰囲気</h3><p>店舗掲載情報では、昭和レトロな大衆居酒屋として紹介されています。気取らず過ごせる印象を、温かい色と木札風の意匠で表現しました。</p></div>
+            </article>
+            <article class="feature-card">
+              <span class="feature-number">二</span>
+              <div><h3>友人・家族との食事に</h3><p>予約サイトの来店傾向では、友人・知人との利用が中心で、ご家族やグループでの利用も見られます。</p></div>
+            </article>
+            <article class="feature-card">
+              <span class="feature-number">三</span>
+              <div><h3>鳥取大学前駅から徒歩圏内</h3><p>鳥取大学前駅から徒歩約5分と案内されています。所在地は湖山町北2丁目、コスモス21 B号です。</p></div>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="section section-features" id="features">
-      <div class="section-heading reveal">
-        <p class="section-kicker">お店について</p>
-        <h2>普段の夜に立ち寄りやすい、<br>昭和レトロな大衆居酒屋</h2>
-      </div>
-
-      <div class="feature-grid">
-        <article class="feature-card reveal">
-          <span class="feature-number">一</span>
-          <h3>料理とお酒を楽しむ</h3>
-          <p>掲載情報では、逸品料理と日本酒を扱う和風居酒屋として紹介されています。現在の品揃えや価格は店頭でご確認ください。</p>
-        </article>
-        <article class="feature-card reveal">
-          <span class="feature-number">二</span>
-          <h3>明るい接客への声</h3>
-          <p>複数の口コミでは、スタッフの明るさや丁寧な対応、楽しく過ごせたことが共通して挙げられています。</p>
-        </article>
-        <article class="feature-card reveal">
-          <span class="feature-number">三</span>
-          <h3>友人・家族との食事に</h3>
-          <p>口コミ投稿では、友人・知人との利用を中心に、家族や職場の集まりで利用した例も確認できます。</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section menu-section" id="menu">
-      <div class="menu-intro reveal">
-        <div class="section-heading section-heading-light">
+    <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="section-inner">
+        <div class="section-heading heading-light">
           <p class="section-kicker">おすすめ・メニュー</p>
-          <h2>その日の料理と一杯を</h2>
+          <h2 id="menu-title">掲載情報で紹介されている一品</h2>
+          <p>現在の提供状況や価格は、店舗へ直接ご確認ください。</p>
         </div>
-        <p>現在の詳しいメニュー名と価格は、公式発信または店舗への確認が必要です。デモサイトでは、料理写真と最新メニューを見やすく掲載する設計にしています。</p>
-      </div>
 
-      <div class="menu-board reveal">
-        <div class="menu-board-header">
-          <span>お品書き</span>
-          <small>正式メニューへ差し替え予定</small>
-        </div>
-        <div class="menu-list">
-          <div class="menu-row">
-            <div>
-              <strong>おすすめ料理</strong>
-              <span>季節・仕入れに応じた内容を掲載</span>
-            </div>
-            <b>価格確認中</b>
+        <div class="menu-feature">
+          <div class="menu-photo placeholder-photo food" role="img" aria-label="チューリップの唐揚げの店舗提供写真に差し替え予定">
+            <span class="placeholder-label">料理写真に差し替え予定</span>
           </div>
-          <div class="menu-row">
-            <div>
-              <strong>定番の一品</strong>
-              <span>人気料理の写真と説明を掲載</span>
-            </div>
-            <b>価格確認中</b>
-          </div>
-          <div class="menu-row">
-            <div>
-              <strong>日本酒・ドリンク</strong>
-              <span>銘柄や入荷情報はInstagramと連携</span>
-            </div>
-            <b>価格確認中</b>
-          </div>
-          <div class="menu-row">
-            <div>
-              <strong>締めの一品</strong>
-              <span>実際の提供内容を確認後に掲載</span>
-            </div>
-            <b>価格確認中</b>
+          <div class="menu-copy">
+            <p class="menu-tag">掲載情報でおすすめとして紹介</p>
+            <h3>チューリップの唐揚げ</h3>
+            <p>店舗関係者が公開した移転案内付きの掲載ページで、看板メニューとして紹介されている一品です。</p>
+            <dl class="menu-meta">
+              <div><dt>価格</dt><dd>店舗へご確認ください</dd></div>
+              <div><dt>提供状況</dt><dd>当日の仕入れ・営業状況により要確認</dd></div>
+            </dl>
           </div>
         </div>
-        <p class="menu-caution">※メニュー、価格、提供状況は店舗確認後に更新します。</p>
+
+        <div class="menu-guide">
+          <div>
+            <h3>最新メニューはInstagramで</h3>
+            <p>季節の料理、当日の案内、臨時休業などは公式Instagramの投稿をご確認ください。</p>
+          </div>
+          <a class="text-link light" href="https://www.instagram.com/montaya2016.67/" target="_blank" rel="noopener noreferrer">Instagramを見る<span aria-hidden="true">→</span></a>
+        </div>
       </div>
     </section>
 
-    <section class="section gallery-section" id="gallery">
-      <div class="section-heading reveal">
-        <p class="section-kicker">写真ギャラリー</p>
-        <h2>料理と店内の雰囲気を、写真で分かりやすく</h2>
-      </div>
-      <div class="gallery-grid">
-        <div class="photo-placeholder gallery-main reveal"><span>店舗写真に差し替え予定</span><small>おすすめ料理</small></div>
-        <div class="photo-placeholder reveal"><span>店舗写真に差し替え予定</span><small>店内</small></div>
-        <div class="photo-placeholder reveal"><span>店舗写真に差し替え予定</span><small>料理</small></div>
-        <div class="photo-placeholder reveal"><span>店舗写真に差し替え予定</span><small>ドリンク</small></div>
-        <div class="photo-placeholder reveal"><span>店舗写真に差し替え予定</span><small>外観・入口</small></div>
-      </div>
-      <p class="gallery-note">写真は店舗提供素材または使用許可を得た公式SNS素材への差し替えを想定しています。</p>
-    </section>
-
-    <section class="section reviews-section" id="reviews">
-      <div class="section-heading reveal">
-        <p class="section-kicker">口コミから分かる特徴</p>
-        <h2>料理と接客への好意的な声</h2>
-      </div>
-      <div class="review-layout">
-        <div class="review-summary reveal">
-          <p class="review-lead">公開されている口コミを確認すると、次のような傾向が見られました。</p>
-          <ul class="trend-list">
-            <li><span>料理</span><strong>頼んだ料理がおいしかったという声</strong></li>
-            <li><span>接客</span><strong>スタッフが明るく、丁寧だったという声</strong></li>
-            <li><span>時間</span><strong>楽しく過ごせて、再訪したいという声</strong></li>
-            <li><span>利用</span><strong>友人・家族・職場の集まりでの利用例</strong></li>
-          </ul>
+    <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-kicker">写真ギャラリー</p>
+          <h2 id="gallery-title">料理と店内の雰囲気</h2>
+          <p>公開時は、店舗から使用許可を得た最新写真へ差し替えます。</p>
         </div>
-        <aside class="review-note reveal">
-          <span class="quote-mark" aria-hidden="true">“</span>
-          <p>個別の口コミは転載せず、複数の投稿に見られる共通傾向のみを要約しています。</p>
-          <small>口コミは個人の感想です。最新の投稿や詳細は外部掲載ページをご確認ください。</small>
-        </aside>
+
+        <div class="gallery-grid">
+          <div class="gallery-item gallery-main placeholder-photo" role="img" aria-label="おすすめ料理写真に差し替え予定"><span class="placeholder-label">おすすめ料理</span></div>
+          <div class="gallery-item placeholder-photo" role="img" aria-label="店内写真に差し替え予定"><span class="placeholder-label">店内</span></div>
+          <div class="gallery-item placeholder-photo" role="img" aria-label="ドリンク写真に差し替え予定"><span class="placeholder-label">ドリンク</span></div>
+          <div class="gallery-item placeholder-photo" role="img" aria-label="外観写真に差し替え予定"><span class="placeholder-label">外観</span></div>
+          <div class="gallery-item placeholder-photo" role="img" aria-label="料理写真に差し替え予定"><span class="placeholder-label">一品料理</span></div>
+        </div>
       </div>
     </section>
 
-    <section class="section social-section" id="social">
-      <div class="social-card reveal">
-        <div class="social-copy">
+    <section class="section reviews" aria-labelledby="reviews-title">
+      <div class="section-inner narrow">
+        <div class="section-heading centered">
+          <p class="section-kicker">口コミから分かる特徴</p>
+          <h2 id="reviews-title">料理と接客への声が見られます</h2>
+          <p>予約サイトに掲載された複数の口コミから、共通する傾向のみを要約しています。</p>
+        </div>
+
+        <div class="review-points">
+          <article><span aria-hidden="true">味</span><h3>料理のおいしさ</h3><p>注文した料理を幅広く楽しめたという趣旨の声が複数見られます。</p></article>
+          <article><span aria-hidden="true">人</span><h3>明るく丁寧な対応</h3><p>店主やスタッフの明るさ、丁寧な接客に触れる声が見られます。</p></article>
+          <article><span aria-hidden="true">宴</span><h3>会話を楽しむ利用</h3><p>友人、家族、会社のグループなど、複数人での利用が多い傾向です。</p></article>
+        </div>
+        <p class="review-note">※口コミは個人の感想です。内容は2026年8月6日の調査時点で確認できた掲載情報を要約しています。</p>
+      </div>
+    </section>
+
+    <section class="section instagram-section" aria-labelledby="instagram-title">
+      <div class="section-inner instagram-card">
+        <div class="instagram-icon" aria-hidden="true">◎</div>
+        <div class="instagram-copy">
           <p class="section-kicker">Instagram</p>
-          <h2>最新のお知らせはInstagramへ</h2>
-          <p>料理、営業のお知らせなど、店舗からの最新発信をご確認ください。</p>
-          <a class="button button-instagram" href="https://www.instagram.com/montaya2016.67/" target="_blank" rel="noopener noreferrer">Instagramを見る</a>
+          <h2 id="instagram-title">最新のお知らせを確認</h2>
+          <p>営業案内や料理の情報は、公式Instagramをご確認ください。</p>
+          <strong>@montaya2016.67</strong>
         </div>
-        <div class="social-preview" aria-label="Instagram投稿写真の差し替え予定枠">
-          <div class="photo-placeholder"><span>公式投稿写真に差し替え予定</span></div>
-          <div class="photo-placeholder"><span>公式投稿写真に差し替え予定</span></div>
-          <div class="photo-placeholder"><span>公式投稿写真に差し替え予定</span></div>
-          <div class="photo-placeholder"><span>公式投稿写真に差し替え予定</span></div>
-        </div>
+        <a class="button button-instagram" href="https://www.instagram.com/montaya2016.67/" target="_blank" rel="noopener noreferrer">Instagramを開く</a>
       </div>
     </section>
 
-    <section class="section info-section" id="info">
-      <div class="section-heading reveal">
-        <p class="section-kicker">店舗情報</p>
-        <h2>居酒家もんたや</h2>
+    <section class="section shop-info" id="info" aria-labelledby="info-title">
+      <div class="section-inner info-layout">
+        <div>
+          <div class="section-heading">
+            <p class="section-kicker">店舗情報</p>
+            <h2 id="info-title">居酒家もんたや</h2>
+          </div>
+          <dl class="info-list">
+            <div><dt>業種</dt><dd>居酒屋</dd></div>
+            <div><dt>住所</dt><dd>〒680-0941<br>鳥取県鳥取市湖山町北2丁目129<br>コスモス21 B号</dd></div>
+            <div><dt>電話番号</dt><dd><a href="tel:0857329745">0857-32-9745</a></dd></div>
+            <div><dt>営業時間</dt><dd>月〜土 18:00〜22:30<br><small>料理・ドリンク L.O. 22:00</small></dd></div>
+            <div><dt>定休日</dt><dd>日曜日</dd></div>
+            <div><dt>席</dt><dd>15席、カウンターありとの掲載</dd></div>
+            <div><dt>駐車場</dt><dd>4台ありとの掲載</dd></div>
+          </dl>
+          <p class="info-caution">営業時間、席、駐車場などの掲載情報は変更される場合があります。ご来店前に店舗へご確認ください。</p>
+        </div>
+        <div class="shop-photo placeholder-photo portrait" role="img" aria-label="店舗外観写真に差し替え予定"><span class="placeholder-label">店舗外観写真に差し替え予定</span></div>
       </div>
-      <div class="info-layout">
-        <dl class="info-table reveal">
-          <div><dt>店名</dt><dd>居酒家もんたや</dd></div>
-          <div><dt>業種</dt><dd>居酒屋</dd></div>
-          <div><dt>住所</dt><dd>〒680-0941<br>鳥取県鳥取市湖山町北2丁目129<br>コスモス21 B号</dd></div>
-          <div><dt>電話番号</dt><dd><a href="tel:0857329745">0857-32-9745</a></dd></div>
-          <div><dt>営業時間</dt><dd>月〜土 18:00〜22:30<br><small>料理・ドリンク L.O. 22:00</small></dd></div>
-          <div><dt>定休日</dt><dd>日曜日</dd></div>
-          <div><dt>予約</dt><dd>電話または外部予約ページ<br><small>予約条件・空席状況はリンク先でご確認ください。</small></dd></div>
-        </dl>
-        <div class="info-photo photo-placeholder reveal"><span>外観写真に差し替え予定</span><small>初めての方が入口を見つけやすい写真を掲載</small></div>
-      </div>
-      <p class="data-note">営業時間・定休日は外部掲載情報を基にしています。臨時休業や変更の可能性があるため、ご来店前に店舗へご確認ください。</p>
     </section>
 
-    <section class="access-section" id="access">
-      <div class="access-content">
-        <div class="section-heading section-heading-light reveal">
+    <section class="section access" id="access" aria-labelledby="access-title">
+      <div class="section-inner">
+        <div class="section-heading">
           <p class="section-kicker">Googleマップ・アクセス</p>
-          <h2>鳥取市湖山町北2丁目129</h2>
+          <h2 id="access-title">湖山町北2丁目、鳥取大学前駅近く</h2>
         </div>
-        <p class="reveal">鳥取大学前駅から徒歩圏内。コスモス21 B号にあります。正確な経路はGoogleマップでご確認ください。</p>
-        <div class="access-actions reveal">
-          <a class="button button-light" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%B1%85%E9%85%92%E5%AE%B6%E3%82%82%E3%82%93%E3%81%9F%E3%82%84%20%E9%B3%A5%E5%8F%96%E7%9C%8C%E9%B3%A5%E5%8F%96%E5%B8%82%E6%B9%96%E5%B1%B1%E7%94%BA%E5%8C%972%E4%B8%81%E7%9B%AE129" target="_blank" rel="noopener noreferrer">Googleマップで経路を見る</a>
-          <a class="text-link-light" href="tel:0857329745">場所を電話で確認する</a>
+
+        <div class="access-grid">
+          <div class="map-wrap">
+            <iframe title="居酒家もんたや周辺地図" src="https://www.google.com/maps?q=%E9%B3%A5%E5%8F%96%E7%9C%8C%E9%B3%A5%E5%8F%96%E5%B8%82%E6%B9%96%E5%B1%B1%E7%94%BA%E5%8C%972%E4%B8%81%E7%9B%AE129%20%E3%82%B3%E3%82%B9%E3%83%A2%E3%82%B921&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="access-copy">
+            <p class="address">〒680-0941<br><strong>鳥取県鳥取市湖山町北2丁目129<br>コスモス21 B号</strong></p>
+            <ul>
+              <li>鳥取大学前駅から徒歩約5分との案内</li>
+              <li>駐車場は4台ありとの掲載</li>
+              <li>駐車位置は来店前に店舗へご確認ください</li>
+            </ul>
+            <a class="button button-primary" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%B1%85%E9%85%92%E5%AE%B6%E3%82%82%E3%82%93%E3%81%9F%E3%82%84%20%E9%B3%A5%E5%8F%96%E7%9C%8C%E9%B3%A5%E5%8F%96%E5%B8%82%E6%B9%96%E5%B1%B1%E7%94%BA%E5%8C%972%E4%B8%81%E7%9B%AE129" target="_blank" rel="noopener noreferrer">Googleマップで経路を見る</a>
+          </div>
         </div>
-      </div>
-      <div class="map-wrap">
-        <iframe title="居酒家もんたや周辺地図" src="https://maps.google.com/maps?q=%E9%B3%A5%E5%8F%96%E7%9C%8C%E9%B3%A5%E5%8F%96%E5%B8%82%E6%B9%96%E5%B1%B1%E7%94%BA%E5%8C%972%E4%B8%81%E7%9B%AE129&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </section>
 
-    <section class="contact-section" id="contact">
-      <div class="contact-inner reveal">
-        <p class="section-kicker">予約・お問い合わせ</p>
-        <h2>ご来店前の確認・ご予約はこちら</h2>
-        <p>人数、希望日時などをお手元にご用意のうえお問い合わせください。</p>
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="section-inner contact-inner">
+        <div class="contact-heading">
+          <p class="section-kicker">予約・問い合わせ</p>
+          <h2 id="contact-title">ご予約、ご来店前の確認はこちら</h2>
+          <p>人数や希望日時を決めてからご連絡いただくとスムーズです。</p>
+        </div>
         <div class="contact-options">
-          <a class="contact-option phone-option" href="tel:0857329745">
-            <span>電話で問い合わせる</span>
+          <a class="contact-option phone" href="tel:0857329745">
+            <span class="contact-label">電話で問い合わせ</span>
             <strong>0857-32-9745</strong>
+            <small>タップして電話をかける</small>
           </a>
-          <a class="contact-option" href="https://www.hotpepper.jp/strJ003473241/" target="_blank" rel="noopener noreferrer">
-            <span>外部サイトで確認</span>
+          <a class="contact-option reserve" href="https://www.hotpepper.jp/strJ003473241/" target="_blank" rel="noopener noreferrer">
+            <span class="contact-label">外部予約サイト</span>
             <strong>空席確認・ネット予約</strong>
+            <small>ホットペッパーグルメを開く</small>
+          </a>
+          <a class="contact-option social" href="https://www.instagram.com/montaya2016.67/" target="_blank" rel="noopener noreferrer">
+            <span class="contact-label">最新情報</span>
+            <strong>Instagram</strong>
+            <small>@montaya2016.67</small>
           </a>
         </div>
-        <small>混雑時など電話に出られない場合があります。予約の確定条件は店舗または予約ページでご確認ください。</small>
+        <p class="contact-note">※Instagramのダイレクトメッセージで予約を受け付けているかは確認できていません。予約は電話または掲載中の外部予約サイトをご利用ください。</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="footer-inner">
+    <div class="section-inner footer-inner">
       <div>
         <strong>居酒家もんたや</strong>
-        <p>〒680-0941 鳥取県鳥取市湖山町北2丁目129 コスモス21 B号</p>
+        <p>鳥取県鳥取市湖山町北2丁目129 コスモス21 B号</p>
       </div>
       <div class="footer-links">
         <a href="tel:0857329745">電話</a>
@@ -287,8 +286,8 @@
         <a href="https://www.instagram.com/montaya2016.67/" target="_blank" rel="noopener noreferrer">Instagram</a>
       </div>
     </div>
-    <div class="demo-notice">本サイトは営業提案用に制作したデモホームページです。店舗の公式サイトではありません。</div>
-    <p class="copyright">© <span id="current-year"></span> Izakaya Montaya Demo.</p>
+    <div class="demo-notice">本サイトは営業提案用に制作したデモホームページです。居酒家もんたやが公開・運営している公式ホームページではありません。</div>
+    <p class="copyright">© <span id="current-year">2026</span> 居酒家もんたや Demo.</p>
   </footer>
 
   <nav class="mobile-actions" aria-label="スマートフォン用クイックメニュー">
